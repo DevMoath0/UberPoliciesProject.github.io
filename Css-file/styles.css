@@ -1,0 +1,174 @@
+.logo-text{
+    height: 5rem;
+    width: 10rem;
+}
+.nav-item{
+    font-size: 1.5rem;
+    padding: 0 20px;
+    font-family: 'kanit';
+}
+.navbar-collapse{
+    margin-left: 30px;
+    margin-right: 500px;
+}
+.nav-item:hover a{
+    color: #22A39F;
+    font-size: 1.7rem;
+    transition: font-size 200ms ease-in;
+}
+.btn-primary{
+    padding: 5px 20px;
+    color: black;
+    border: 2px solid;
+    background: none;
+    margin-right: 20px;
+    min-width: 120px;
+    font-family: 'kanit';
+}
+.btn-primary:hover{
+    background-color: black;
+    border-color: black;
+    font-family: 'kanit';
+}
+.start-btn{
+    padding: 5px 20px;
+    color: white;
+    border: 2px solid;
+    background: black;
+    width: 250px;
+    height: 100px;
+    font-size: xx-large;
+    padding-top: 22px;
+    position: relative; 
+    font-family: 'kanit';
+}
+.start-btn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: #000;
+    position: relative; 
+    font-family: 'kanit';
+}
+.uber-logo{
+    border-radius: 25%;
+    height: 75px;
+    width: 75px;
+}
+.container-fluid{
+    margin-right: 200px;
+}
+.home-para{
+    font-family: Unbounded sans-serif;
+}
+.mid-container{
+    padding: 20px;
+}
+.home-para{
+    margin-top: 250px;
+    font-size: 4rem;
+    color: #fff;
+    position: relative;
+    font-family: 'kanit';
+}
+.mid-container{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+}
+.mid-container::before{
+    content: "";
+      background-image: url('https://www.teahub.io/photos/full/268-2683578_uber-wallpaper.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+}
+.agree-mid-container{
+    margin: 20px;
+}
+.card{
+    margin-left: 18%;      
+    margin-right: 18%;
+    width: auto;
+    font-family: 'kanit';
+}
+.card-header{
+    font-size: xx-large;
+}
+body{
+    background-color: #222222;
+}
+.det-mid-container{
+    margin: 20px;
+    display: block;
+    margin-top: 80px;
+}
+.inside-text{
+    color: #22A39F;
+}
+.details-paragraph-1, .details-paragraph-2{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'kanit';
+}
+.details-paragraph-1{
+    margin-left: 520px;
+}
+.details-paragraph-2{
+    margin-left: 30px;
+}
+.details-image-one{
+    float: left;
+}
+.details-image-two{
+    float: right;
+}
+.details-image-one, .details-image-two{
+    border-radius: 7%;
+    width: 500px;
+    display: inline-block;
+}
+.upper{
+    margin-top: 15rem;
+}
+.agreement-container{
+    margin-top: 15rem;
+    text-align: center;
+}
+.about-mid-container{
+   margin: 20px;
+}
+.outer-mid-container{
+    margin: 20px;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #fff;
+    font-family: 'kanit';
+    border-radius: 5%;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.about-list{
+    justify-content: center;
+    justify-content: space-evenly;
+    display:flex;  
+    margin-left: -2.5rem;
+}
+.box h4 a{
+    margin-top: 20px;
+    font-family: 'kanit';
+    color: #22a39f;
+    text-decoration: none;
+}
